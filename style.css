@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.pic{
+    height:600px;
+    width: 600px;
+    margin-top:10%;
+    border-radius:50px 50px 50px 50px;
+    animation: change 5s infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes change{
+    0%{
+        background-image:url('https://teluguvision.com/wp-content/uploads/2021/12/images-7-17.jpg');
+        transform: rotate(-45deg);
+    }
+    50%{
+        background-image:url('https://deepikamittal.com/wp-content/uploads/2018/10/thumbnail_guess-the-no.jpg');
+        transform: rotate(45deg);
+    }
+    100%{
+        background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByFzYJaT45vmkEqPFLC1TYCzasJcb2SFEmRmC9V24feCFTwohUSwf1xxAKiT1I_Ln_Ek&usqp=CAU');
+        transform: rotate(-30deg);
+    }
+    
+}
+.random{
+    height: 300px;
+    width: 500px;
+    margin:auto;
+    margin-top:-40%;
+    margin-left:50%;
+    border:5px solid black;
+    box-shadow: 3px 3px 10px rgb(149, 214, 236);
+    background-color: rgba(90, 172, 8, 0.792);
+    border-radius:10px 10px 10px 10px;
+}
+.box{
+    font-size: 25px;
+    color: rgb(197, 231, 28);
+    padding: 3%;
+    font-family: cursive;
+    margin-left:20%;
+    text-shadow: 3px 3px 4px  rgb(205, 210, 60);
+    animation:move 2s infinite;
+}
+@keyframes move{
+    0%{
+        font-size:large;
+    }
+    50%{
+        font-size:x-large;
+    }
+    100%{
+        font-size:large;
+
+    }
+}
+center{
+    color:rgb(5, 4, 4);
+    font-size:20px;
+    font-weight: bold;
+}
+h4 center{
+    color:white;
+}
+label{
+    color: white;
+    font-size:20px;
+    margin-left: 15%;
+}
+#wait{
+    height:40px;
+    width: fit-content;
+    font-size: 20px;
+    margin: auto;    
+    color:rgb(241, 251, 251);
+    text-align:center;
+        
+    margin-top:3%;
+    border-radius:10% 10% 10% 10%;
+}
+
+.btn{
+    margin: auto;  
+    margin-top: 15%;
+    margin-left:10%;
+}
+.btn input{
+    padding: 5%;  
+    font-size:20px;
+    color:darkcyan;
+    font-weight: bold; 
+    box-shadow: 3px 3px 10px lightblue;
+    border-radius:10% 10% 10% 10%;
+    
+}
+.end{
+    margin:auto;
+    margin-top: 2%;
+    margin-left:40%;
+}
+.end input{
+    padding: 2%;  
+    font-size:20px;
+    color:darkcyan;
+    font-weight: bold; 
+    box-shadow: 3px 3px 10px lightblue;
+    border-radius:10% 10% 10% 10%;
+}
